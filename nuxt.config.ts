@@ -1,4 +1,5 @@
 import Aura from '@primeuix/themes/aura'
+import { locales } from './i18n';
 
 export default defineNuxtConfig({
     compatibilityDate: "2025-07-15",
@@ -27,6 +28,11 @@ export default defineNuxtConfig({
             weights: [400, 500],
             styles: ['normal'],
         },
+    },
+
+    i18n: {
+        locales,
+        strategy: 'prefix'
     },
 
     devtools: { enabled: true },

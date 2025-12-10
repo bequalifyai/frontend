@@ -1,5 +1,8 @@
 <template>
     <Button class="" size="small" label="Click me" />
+    {{ locale }}
 </template>
 
-<script setup></script>
+<script setup>
+const { locale } = useI18n();
+</script>
