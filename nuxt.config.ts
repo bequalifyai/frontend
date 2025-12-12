@@ -29,6 +29,7 @@ export default defineNuxtConfig({
     i18n: {
         locales,
         strategy: "prefix",
+        langDir: "",
     },
 
     vite: {

@@ -1,0 +1,16 @@
+{
+    "login": {
+        "title": "Увійти",
+        "form": {
+            "email": "Email",
+            "password": "Пароль",
+            "submit": "Увійти",
+            "errors": {
+                "invalid_credentials": "Неправильна електронна пошта або пароль.",
+                "required_email_field": "Електронна пошта є обов'язковою.",
+                "invalid_email_address": "Неправильна електронна адреса.",
+                "required_password_field": "Пароль є обов'язковим."
+            }
+        }
+    }
+}

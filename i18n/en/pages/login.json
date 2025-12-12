@@ -1,0 +1,16 @@
+{
+    "login": {
+        "title": "Log In",
+        "form": {
+            "email": "Email",
+            "password": "Password",
+            "submit": "Log In",
+            "errors": {
+                "invalid_credentials": "Invalid email or password.",
+                "required_email_field": "Email is required.",
+                "invalid_email_address": "Invalid email address.",
+                "required_password_field": "Password is required."
+            }
+        }
+    }
+}
