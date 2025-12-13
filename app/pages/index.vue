@@ -1,8 +1,10 @@
 <template>
-    <Button class="" size="small" label="Click me" />
-    {{ locale }}
+    <main class="flex flex-1 h-full">
+        <Sidebar />
+        <div class="">hello</div>
+    </main>
 </template>
 
 <script setup>
-const { locale } = useI18n();
+import Sidebar from "@/layouts/Sidebar.vue";
 </script>

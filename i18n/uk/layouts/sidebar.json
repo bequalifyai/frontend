@@ -1,0 +1,16 @@
+{
+    "sidebar": {
+        "dashboard": "Дашборд",
+        "calls": "Дзвінки",
+        "leadGeneration": "Генерація лідів",
+        "knowledgeBase": "База знань",
+        "results": "Результати",
+        "aiSuggestions": "AI-рекомендації",
+        "team": "Команда",
+        "account": {
+            "profile": "Профіль",
+            "settings": "Обліковий запис",
+            "logout": "Вийти"
+        }
+    }
+}

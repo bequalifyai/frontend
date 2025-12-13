@@ -1,0 +1,16 @@
+{
+    "sidebar": {
+        "dashboard": "Dashboard",
+        "calls": "Calls",
+        "leadGeneration": "Lead Generation",
+        "knowledgeBase": "Knowledge Base",
+        "results": "Results",
+        "aiSuggestions": "AI Suggestions",
+        "team": "Team",
+        "account": {
+            "profile": "Profile Settings",
+            "settings": "Account Settings",
+            "logout": "Log out"
+        }
+    }
+}

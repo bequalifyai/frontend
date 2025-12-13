@@ -1,16 +1,32 @@
+const pages = [
+    'pages/login.json'
+]
+
+const layouts = [
+    'layouts/sidebar.json'
+]
+
+const components = []
+
+function withLocale(locale: 'en' | 'uk', paths: string[]) {
+    return paths.map(p => `${locale}/${p}`)
+}
+
 export const locales = [
     {
         code: 'en',
         name: 'English',
         files: [
-            'en/pages/login.json',
+            ...withLocale('en', pages),
+            ...withLocale('en', layouts),
         ]
     },
     {
         code: 'uk',
         name: 'Ukrainian',
         files: [
-            'uk/pages/login.json',
+            ...withLocale('uk', pages),
+            ...withLocale('uk', layouts),
         ]
     }
 ]
