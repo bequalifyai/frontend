@@ -16,3 +16,7 @@ body {
 .p-card-content {
     display: block;
 }
+
+.p-menu {
+    border-radius: 0 !important;
+}

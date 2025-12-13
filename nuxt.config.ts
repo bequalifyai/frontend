@@ -4,7 +4,13 @@ import svgLoader from "vite-svg-loader";
 
 export default defineNuxtConfig({
     compatibilityDate: "2025-07-15",
-    modules: ["@primevue/nuxt-module", "@nuxtjs/tailwindcss", "@nuxtjs/i18n", "@nuxt/fonts"],
+    modules: [
+        "@primevue/nuxt-module", 
+        "@nuxtjs/tailwindcss", 
+        "@nuxtjs/i18n", 
+        "@nuxt/fonts", 
+        "@pinia/nuxt"
+    ],
 
     css: ["@/assets/styles/globals.css"],
 
@@ -30,6 +36,10 @@ export default defineNuxtConfig({
         locales,
         strategy: "prefix",
         langDir: "",
+    },
+
+    pinia: {
+        storesDirs: ['@/stores/**']
     },
 
     vite: {
